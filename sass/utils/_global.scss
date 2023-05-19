@@ -1,0 +1,7 @@
+@mixin navbar ($direction, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  text-decoration: none;
+  list-style-type: none;
+}
