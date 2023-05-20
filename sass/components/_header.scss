@@ -1,12 +1,51 @@
-header {
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(38, 38, 38);
+  transition: background .15s;
 
-  &__container {
+  &:hover {
+    background-color: #fff;
 
-    svg {
-      width: 50px;
+
+    .header__container a {
+      color: black;
+      text-decoration: underline;
+
+    }
+  }
+
+
+  .header__container {
+
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      padding: 0;
+      margin: 0;
     }
 
-    // &-items {
-    //   list
-    // }
+    img {
+      width: 50px;
+      border-radius: 50px;
+    }
+
+    &-items {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      padding: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+
+
   }
+}

@@ -1,7 +1,11 @@
-@mixin navbar ($direction, $justify) {
-  display: flex;
-  flex-direction: $direction;
-  justify-content: $justify;
-  text-decoration: none;
-  list-style-type: none;
+@font-face {
+  font-family: "BPmono";
+  src: url(../../assets/tff/BPmono.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BPmono";
+  src: url(../../assets/tff/BPmonoBold.ttf);
+  font-style: bold;
 }
