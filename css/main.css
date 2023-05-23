@@ -72,6 +72,22 @@ body main .hero {
   flex-direction: column;
   align-items: center;
 }
+body main .hero .linea {
+  height: 2px;
+  background-color: #fff;
+  width: 94vw;
+  justify-content: center;
+}
+body main .hero h1 {
+  font-family: "BPmono";
+  font-size: 23vw;
+  text-align: center;
+  color: white;
+}
+body main .hero img {
+  width: 94vw;
+  text-align: center;
+}
 body main .hero__container {
   display: flex;
   width: 94vw;
@@ -154,22 +170,44 @@ body main .hero .infoHeadphones .infoHeadphones__container-button button {
   color: white;
   font-weight: bold;
 }
-body .prueba {
-  color: white;
-}
-body .linea {
-  height: 2px;
+body main .heroBlanco {
+  display: flex;
   background-color: #fff;
+  text-align: left;
+  flex-direction: column;
+}
+body main .heroBlanco .lineaNegra {
+  height: 2px;
+  background-color: #000;
   width: 94vw;
   justify-content: center;
 }
-body h1 {
-  font-family: "BPmono";
-  font-size: 23vw;
-  text-align: center;
-  color: white;
-}
-body img {
+body main .heroBlanco .tittleBlanco {
+  display: flex;
+  text-align: left;
   width: 94vw;
-  text-align: center;
+  margin-top: 100px;
+}
+body main .heroBlanco .tittleBlanco__containter {
+  width: 94vw;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+body main .heroBlanco .tittleBlanco p {
+  padding: 3px;
+}
+body main .heroBlanco .headphonesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+body main .heroBlanco .headphonesGrid-item1 {
+  width: 100%;
+}
+body main .heroBlanco .headphonesGrid-item2 {
+  width: 100%;
+}
+body main .heroBlanco .headphonesGrid-item3 {
+  width: 100%;
 }
